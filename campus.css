@@ -4,29 +4,34 @@ nav {
     border: 3px; 
     border-color: green;
     gap: 70px;
-    padding: 10px;
 }
 nav img{
-    width: 120px;
+    width: 150px;
     height: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 
 a {
     text-decoration: none;
-    width: 100px;
+    color: black;
+    width: 60px;
     height: 40px;
     margin-top: 14px;
     text-align: center;
 }
 
 .button {
-    background-color: blue;
+    background-color: rgb(5, 141, 254);
     color: white;
     border-radius: 10px;
     margin-top: 7px;
     margin-right: 20px;
     margin-left: auto;
+}
+
+#loaded {
+    color: blue;
+    border-bottom: 3px solid rgb(128, 189, 255) ;
 }
