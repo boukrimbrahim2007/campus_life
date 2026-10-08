@@ -76,10 +76,11 @@ h1 span {
     color: white;
     margin-left: 20%;
 }
-h3 {
+#weird {
     margin-top: -16px;
-    font-size: 150%;
-    line-height: 75%;
+    font-size: 120%;
+    line-height: 85%;
+    font-weight: 200;
     color: white;
     margin-left: 20%;
 }
@@ -153,10 +154,14 @@ h3 {
     color: black;
 }
 
+.fa-regular {
+    transform: rotate(45deg);
+}
 .color {
     color: rgba(3, 75, 255, 1);
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
+    font-weight: 500;
 }
 
 .num {
@@ -186,4 +191,37 @@ h3 {
 
 .organ {
     margin-top: -20px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+}
+.writing{
+    width: 100%;
+}
+
+.pics {
+    width: 120%;
+}
+
+.writing h3{
+    font-size: 10px;
+    line-height: 120%;
+    color: rgba(3, 75, 255, 1);
+    font-weight: 300;
+    margin-left: 20%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.writing h2{
+    color: rgba(10, 18, 34, 1);
+    font-size: 33px;
+    line-height: 120%;
+    font-weight: 800;
+    margin-left: 20%;
+    padding-top: 5px;
+    margin-top: 0px;
 }
