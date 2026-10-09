@@ -204,6 +204,7 @@ h1 span {
 
 .pics {
     width: 120%;
+    
 }
 
 .writing h3{
@@ -224,4 +225,215 @@ h1 span {
     margin-left: 20%;
     padding-top: 5px;
     margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.writing h4{
+    color: rgba(10, 18, 34, 1);
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: 400;
+    margin-left: 20%;
+    padding-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.explore {
+    margin-left: 20%;
+    background-color: rgba(3, 75, 255, 1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#school {
+    transform: rotate(-5deg);
+    width: 202px;
+    height: 185px;
+    border-radius: 10px;
+    top: 30px;
+    position: relative;
+    z-index: 2;
+    margin-left: 10px;
+}
+
+#class {
+    transform: rotate(7deg);
+    width: 186px;
+    height: 160px;
+    border-radius: 10px;
+    top: 36px;
+    position: relative;
+    z-index: 2;
+}
+
+#class2 {
+    transform: rotate(5deg);
+    width: 176px;
+    height: 116px;
+    border-radius: 10px;
+    top: -40px;
+    position: relative;
+    z-index: 2;
+    margin-left: -50px;
+}
+
+.black{
+    padding: 7px 10px;
+    background-color: black;
+    color: white;
+    width: 120px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 8px;
+    position: relative;
+    z-index: 3;
+}
+
+#tag1{
+    margin-left: 30px;
+    
+}
+
+#tag2{
+    margin-left: 260px;
+    margin-top: -35px;
+}
+
+#tag3{
+    margin-left: 390px;
+    margin-top: -100px;
+}
+
+#square{
+    transform: rotate(25deg);
+    height: 65px;
+    width: 65px;
+    background-color: rgba(3, 75, 255, 1);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    margin-left: 259px;
+    margin-top: -155px
+    
+}
+
+.journey{
+    background-color: black;
+    color: white;
+}
+
+.journey h2 { 
+    font-size: 33px;
+    margin-left: 8%;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.journey h3{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-left: 8%;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#steps {
+    margin-left: 8%;
+}
+#numbers {
+
+    display: flex;
+    margin-left: 2%;
+    justify-content: space-between;
+    
+}
+
+#numbers p{
+}
+.p1, .p2, .p3, .p4, .p5, .p6{
+    margin-left: 15px;margin-top: 0px;
+    padding-top: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    padding: auto 10px;
+}
+#logos {
+    display: flex;
+    margin-left: -1%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+#logos i{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1,.logo2,.logo5 {
+    background-color: rgba(3, 75, 255, 1);
+} 
+
+.logo3 {
+    background-color: rgba(4, 184, 134, 1);
+}
+
+.logo4{
+    background-color: rgba(103, 68, 255, 1);
+}
+.logo6 {
+    background-color: rgba(199, 246, 74, 1);
+}
+
+
+
+#logos {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.des h3{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.des p{
+    font-size: 10px;
+    font-weight: 400;
+}
+.des {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.why{
+    margin-left: -40px;
+}
+
+.problem {
+    margin-left: -70px;
+}
+
+.mpt {
+    display: block;
+    height: 10px;
 }
